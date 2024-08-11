@@ -17,6 +17,7 @@ simple node project
   2. Open http://localhost:3003/ in browser
 
 # Create docker build using Dockerfile
-```docker build -t node-project-web:1.0```
-```docker run node-project-web:1.0 -d```
+1. ```docker build -t node-project-web:1.0```
+
+2. ```docker run node-project-web:1.0 -d -p 3003:3000```
 
